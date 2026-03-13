@@ -1,0 +1,66 @@
+# Sales Performance Dashboard – Power BI
+## Project Overview
+
+This project presents an interactive Power BI Sales Dashboard designed to analyze sales performance, profitability, shipping efficiency, and regional trends. The dashboard helps identify top-performing products, profitable markets, and logistics insights to support data-driven decision-making.
+
+## Data Preparation
+
+The dataset was imported from a CSV file into Power Query for cleaning and transformation. Missing values were checked, data types were validated, and Order Date and Ship Date were converted to date format. Unnecessary columns such as Customer ID, Product ID, and an unknown language column were removed before loading the data into Power BI.
+
+## Dashboard Pages
+
+The dashboard includes four interactive pages:
+
+Sales & Profitability Overview – Key sales metrics, category performance, and top-selling products.
+
+Shipping & Logistics Performance – Analysis of shipping costs, ship modes, and delivery times.
+
+Regional Sales Performance – Sales and profit distribution across regions, countries, and cities.
+
+Drill-through Page – Detailed product-level insights.
+
+## Key KPIs
+
+Total Sales
+
+Total Profit
+
+Total Orders
+
+Profit Margin %
+
+Sales, Profit, and Orders vs Last Year
+
+Sales per Order
+
+Profit per Order
+
+Total & Average Shipping Cost
+
+Average Shipping Days
+
+Average Delivery Days
+
+Top Region by Sales
+
+## Key Insights
+
+Apple Smart Phone ($87K) is the top-selling product.
+
+Consumer segment contributes 51% of total sales.
+
+Copiers ($258K) and Phones ($216K) generate the highest profits, while Tables record a loss of –$64K.
+
+Standard Class shipping handles over 60% of orders but has the longest delivery time.
+
+Europe and Africa generate higher profits, and New York and Los Angeles are the top-selling cities.
+
+## Tools Used
+
+Power BI
+
+Power Query
+
+DAX
+
+Data Visualization
